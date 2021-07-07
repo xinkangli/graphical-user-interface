@@ -9,6 +9,6 @@ After you click Submit, you can click plot to view the image result, and you can
 
 In the right half area, click look at the relationship between Y and X to view the correlation between Y and X
 
-In let is take X that has a linear relationship, enter F + AP + aq,
+In let is take X that has a linear relationship, enter F + AP + AQ,
 
 The plot and result buttons are used to view the optimized results
