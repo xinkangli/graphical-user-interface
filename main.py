@@ -144,11 +144,22 @@ def zuotu():
     # model4对测试集的预测
     list1=['1']
     print(bl.yx)
+    
+    xh=0;
     for j in bl.yx:
+        xh=1
         if(j!='+'):
-            list1.append(j)
-    del(list1[0])
-    print('zuo')
+            bl.sum=bl.sum+j;
+            print(bl.sum)
+        if (j == '+'):
+            list1.append(bl.sum)
+            bl.sum = ''
+    if(xh==1):
+        list1.append(bl.sum)
+
+    del (list1[0])
+    
+   
     print(list1)
     pred4 = model4.predict(exog=test.loc[:, list1])
     plt.figure()
